@@ -5,7 +5,7 @@ const app = express();
 app.set("view engine", "ejs");
 
 app.get("/", (req, res) => {
-    res.render("index", { title: "Home" });
+    res.render("home", { title: "Home" });
 });
 
 app.listen(3000, () => {
